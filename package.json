@@ -1,0 +1,29 @@
+{
+  "name": "slides.tian.im",
+  "version": "1.0.0",
+  "description": "Slides",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tian-im/slides.tian.im.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tian-im/slides.tian.im/issues"
+  },
+  "homepage": "https://github.com/tian-im/slides.tian.im#readme",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
