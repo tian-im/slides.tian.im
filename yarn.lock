@@ -141,6 +141,11 @@ react@^18.1.0:
   dependencies:
     loose-envify "^1.1.0"
 
+reveal.js@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-4.3.1.tgz#24a63300cff92cf5cbdd40a46f5d3699614d49ca"
+  integrity sha512-1kyEnWeUkaCdBdX//XXq9dtBK95ppvIlSwlHelrP8/wrX6LcsYp4HT9WTFoFEOUBfVqkm8C2aHQ367o+UKfcxw==
+
 scheduler@^0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.22.0.tgz#83a5d63594edf074add9a7198b1bae76c3db01b8"
