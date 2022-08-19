@@ -1,3 +1,6 @@
+# Nextjs export folder
+/out
+
 # Logs
 logs
 *.log
