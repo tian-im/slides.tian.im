@@ -1,3 +1,110 @@
+:root {
+  --r-heading-text-transform: normal;
+  --color-canvas-subtle: #f6f8fa;
+}
+
 #__next {
   height: 100%;
+}
+
+.reveal small {
+  color: #999;
+}
+
+.reveal b {
+  color: red;
+  font-style: normal;
+}
+
+.reveal code {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f6f8fa;
+}
+
+.reveal .code-wrapper {
+  padding: 15px 20px;
+}
+
+.reveal .code-wrapper code {
+  background-color: transparent;
+  padding: auto;
+}
+.reveal .hljs {
+  color: #666;
+}
+
+.reveal .hljs .hljs-comment {
+  color: #468C77;
+}
+
+/* Custom */
+.reveal:has(.optimization.present):before {
+  content: "test";
+  display: block;
+}
+
+.reveal.ribbon:after,
+.reveal.problem:after,
+.reveal.tool:after,
+.reveal.optimization:after {
+  display: block;
+  position: absolute;
+  top: 69px;
+  right: -82px;
+  transform: rotate(45deg);
+  background-color: orange;
+  padding: 10px 0;
+  width: 350px;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+}
+
+.reveal.problem:after {
+  content: "Problem";
+  background-color: red;
+}
+
+.reveal.tool:after {
+  content: "Tool";
+  background-color: #d2980d;
+}
+
+.reveal.optimization:after {
+  content: "Optimization";
+  background-color: #1984c5;
+}
+
+.reveal ul.plain {
+  list-style: none;
+}
+
+.reveal .checkbox-wrapper input[type=checkbox] {
+  position: relative;
+  top: 1px;
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  border: 3px solid #1984c5;
+}
+
+.reveal .checkbox-wrapper input[type=checkbox]:after {
+  content: '';
+  display: block;
+  transition: transform 200ms;
+}
+
+.reveal .checkbox-wrapper input[type=checkbox]:checked:after {
+  width: 6px;
+  height: 12px;
+  margin: 3px 8px;
+  border-bottom: 4px solid #1984c5;
+  border-right: 2px solid #1984c5;
+  transform: rotate(45deg);
 }
